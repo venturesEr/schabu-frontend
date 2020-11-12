@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'schabudemo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_28e747b4e0d94849a28d95e6d4e7b99b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_bb556f0e8af34ab4a2d9092344b3d395 }}
         package: .
