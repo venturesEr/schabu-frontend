@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Redirect } from "react-router-dom";
+import React from "react";
 import logo from "../../Assets/android-chrome-144x144.png"
 
 export default class Navbar extends React.Component {

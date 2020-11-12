@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../Assets/android-chrome-96x96.png"
 
 
 export default class Footer extends React.Component {
@@ -23,19 +22,19 @@ export default class Footer extends React.Component {
                   <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Offices</h5>
                   <ul class="list-unstyled">
                     <li>
-                      <a href="#!">AI Health</a>
+                      <a href="#">AI Health</a>
                     </li>
                     <li>
-                      <a href="#!">AI Australia</a>
+                      <a href="#">AI Australia</a>
                     </li>
                     <li>
-                      <a href="#!">AI Brisbane</a>
+                      <a href="#">AI Brisbane</a>
                     </li>
                     <li>
-                      <a href="#!">AI Canberra</a>
+                      <a href="#">AI Canberra</a>
                     </li>
                     <li>
-                      <a href="#!">AI Darwin</a>
+                      <a href="#">AI Darwin</a>
                     </li>
                   </ul>
                 </div>

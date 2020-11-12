@@ -2,10 +2,8 @@ import React from 'react'
 import "../css/Login.css"
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import Job_table from './Job_table';
 import NavBar from "../components/Navigation/NavBar";
 import Footer from "../components/Footer/index";
-import { NavLink } from 'react-router-dom';
 import bg from '../Assets/Schabu-Pic.jpg';
 import history from '../history'
 

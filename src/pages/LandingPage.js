@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Carousel from "../components/Carousel/index";
 import NavBar from "../components/Navigation/NavBar";
 import Footer from "../components/Footer/index";
 import history from '../history'
