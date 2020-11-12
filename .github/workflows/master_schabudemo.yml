@@ -22,6 +22,7 @@ jobs:
 
     - name: npm install, fund, build, and test
       run: |
+        npm ci
         npm install
         npm fund
         yarn add react-router-dom
