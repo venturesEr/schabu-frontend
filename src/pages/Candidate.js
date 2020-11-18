@@ -38,7 +38,7 @@ class candidate extends React.Component {
 
         console.log(name)
 
-        let urlFetch = "http://localhost:9000/getQuestion?name="+name;
+        let urlFetch = "https://back-end-schabu.azurewebsites.net/getQuestion?name="+name;
         fetch(urlFetch)
             .then(res => res.text())
             .then(res => {
@@ -56,7 +56,7 @@ class candidate extends React.Component {
         fd.append('id', name)
         fd.append('question', this.state.questionCounter)
         fd.append('filename', 'my_file.wav');
-        fetch('http://localhost:9000/postRec',
+        fetch('https://back-end-schabu.azurewebsites.net/postRec',
             {
                 method: 'post',
                 body: fd
@@ -140,7 +140,7 @@ class candidate extends React.Component {
         fd.append('question', this.state.questionCounter)
         fd.append('filename', 'my_file.wav');
         fd.append("submit", "true");
-        fetch('http://localhost:9000/postRec',
+        fetch('https://back-end-schabu.azurewebsites.net/postRec',
             {
                 method: 'post',
                 body: fd

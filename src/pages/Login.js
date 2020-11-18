@@ -20,7 +20,7 @@ class Login extends React.Component {
     }
 
     callAPI(val) {
-        let urlFetch = "http://localhost:9000/testAPI?firstname=" + val.name + "&email=" + val.email + "&phone=" + val.phone+ "&job_id=" + val.changeJob;
+        let urlFetch = "https://back-end-schabu.azurewebsites.net/testAPI?firstname=" + val.name + "&email=" + val.email + "&phone=" + val.phone+ "&job_id=" + val.changeJob;
         fetch(urlFetch)
             .then(res => res.text())
             .then(res => {

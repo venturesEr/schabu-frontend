@@ -12,7 +12,7 @@ class Job_table extends React.Component {
     }
 
     componentDidMount() {
-        let urlFetch = "http://localhost:9000/getJobs";
+        let urlFetch = "https://back-end-schabu.azurewebsites.net/getJobs";
         fetch(urlFetch)
             .then(res => res.text())
             .then(res => {
